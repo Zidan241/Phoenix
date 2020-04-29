@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.android.navigation.AcountFragment" android:id="@+id/layout">
+
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:isScrollContainer="true">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/setup_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:minHeight="?attr/actionBarSize"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+            <ProgressBar
+                    android:id="@+id/progressBar3"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:indeterminateTint="@color/colorPrimaryDark"
+                    android:visibility="invisible" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/setup_image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="8dp"
+
+                    android:adjustViewBounds="false"
+                    android:src="@drawable/default_icon"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="1dp" />
+
+            <EditText
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/rounded_et"
+                    android:gravity="center"
+                    android:hint="@string/profile_name"
+                    android:inputType="textPersonName"
+                    android:maxLength="20" />
+
+            <Button
+                    android:id="@+id/save_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/btn_round"
+                    android:text="@string/save"
+                    android:textColor="@color/white" />
+
+            <Button
+                    android:id="@+id/cancel_save_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/btn_round_color"
+                    android:text="@string/cancel_btn"
+                    android:textColor="@color/white" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

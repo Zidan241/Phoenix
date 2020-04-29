@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Phoenix</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="pass_hint">...Password...</string>
+    <string name="mail_hint">...Email...</string>
+    <string name="welcome">Welcome to Phoenix</string>
+    <string name="login_btn">Login</string>
+    <string name="new_account">New Account</string>
+    <string name="action_search_text">Search</string>
+    <string name="account_settings_text">Account Settings</string>
+    <string name="action_logout_text">Logout</string>
+    <string name="create_account">Create a new account</string>
+    <string name="create_btn">Create Account</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="confirm_pass">...Confirm Password...</string>
+    <string name="profile_name">...Name...</string>
+    <string name="save">Save</string>
+    <string name="new_post">Create new post</string>
+    <string name="information_text">...Add Information...\n(max:50)</string>
+    <string name="post_btn">Post</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="comment_text">...Comment...</string>
+</resources>

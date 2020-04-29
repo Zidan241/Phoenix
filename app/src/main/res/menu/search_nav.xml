@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/search_nav_posts"
+            android:icon="@drawable/baseline_home_black_24dp"
+            android:title="Posts" />
+    <item
+            android:id="@+id/search_nav_users"
+            android:icon="@drawable/baseline_account_circle_black_24dp"
+            android:title="Users" />
+</menu>
